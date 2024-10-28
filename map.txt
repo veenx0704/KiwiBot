@@ -1,0 +1,19 @@
+KiwiBot/
+├── frontend/
+│   ├── src/
+│   │   ├── assets/          # For images, icons, SVGs, etc.
+│   │   │   └── logo.svg
+│   │   ├── components/      # For reusable components like buttons, headers, etc.
+│   │   ├── pages/           # For main page components
+│   │   │   ├── Welcome.js
+│   │   │   ├── MakeRecipe.js
+│   │   │   └── ShowRecipe.js
+│   │   ├── styles/          # CSS files corresponding to each page or component
+│   │   │   ├── Welcome.css
+│   │   │   ├── MakeRecipe.css
+│   │   │   └── ShowRecipe.css
+│   │   ├── App.js           # Main application entry point
+│   │   ├── index.js         # ReactDOM.render() and initial render
+│   │   └── ...
+│   └── public/              # Public assets available without import
+└── ...
